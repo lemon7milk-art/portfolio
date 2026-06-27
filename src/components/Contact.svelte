@@ -18,7 +18,7 @@
   };
 
   const socialLinks = [
-    { icon: '𝓰', label: 'GitHub', href: 'https://github.com' },
+    { icon: '𝓰', label: 'GitHub', href: 'https://github.com/lemon7milk-art' },
     { icon: '𝓵', label: 'LinkedIn', href: 'https://linkedin.com' },
     { icon: '𝓽', label: 'Twitter', href: 'https://twitter.com' },
   ];
@@ -27,57 +27,57 @@
 <section id="contact" class="contact">
   <div class="contact-container">
     <div class="section-header">
-      <h2 class="section-title">Get In Touch</h2>
-      <p class="section-subtitle">Let's work together to create something amazing</p>
+      <h2 class="section-title">연락하기</h2>
+      <p class="section-subtitle">함께 멋진 프로젝트를 만들어봐요</p>
     </div>
 
     <div class="contact-content">
       <form onsubmit={handleSubmit} class="contact-form">
         <div class="form-group">
-          <label for="name">Your Name</label>
+          <label for="name">이름</label>
           <input
             type="text"
             id="name"
             name="name"
             bind:value={formData.name}
-            placeholder="John Doe"
+            placeholder="홍길동"
             required
           />
         </div>
 
         <div class="form-group">
-          <label for="email">Your Email</label>
+          <label for="email">이메일</label>
           <input
             type="email"
             id="email"
             name="email"
             bind:value={formData.email}
-            placeholder="john@example.com"
+            placeholder="your@example.com"
             required
           />
         </div>
 
         <div class="form-group">
-          <label for="message">Message</label>
+          <label for="message">메시지</label>
           <textarea
             id="message"
             name="message"
             bind:value={formData.message}
-            placeholder="Tell me about your project..."
+            placeholder="프로젝트에 대해 말씀해주세요..."
             rows="5"
             required
           ></textarea>
         </div>
 
-        <button type="submit" class="submit-btn">Send Message</button>
+        <button type="submit" class="submit-btn">메시지 보내기</button>
         {#if submitted}
-          <div class="success-message">✓ Message sent successfully!</div>
+          <div class="success-message">✓ 메시지가 성공적으로 전송되었습니다!</div>
         {/if}
       </form>
 
       <div class="contact-info">
         <div class="social-links">
-          <h3>Connect With Me</h3>
+          <h3>함께 연결하기</h3>
           <div class="social-icons">
             {#each socialLinks as social}
               <a href={social.href} class="social-link" title={social.label}>

@@ -1,8 +1,8 @@
 <script>
   const skills = [
-    { category: 'Frontend', items: ['Astro', 'Svelte', 'React', 'TypeScript', 'Tailwind CSS'] },
-    { category: 'Backend', items: ['Node.js', 'Python', 'PostgreSQL', 'MongoDB'] },
-    { category: 'Tools', items: ['Git', 'Docker', 'Webpack', 'Vite'] },
+    { category: '자격증', items: ['빅데이터 분석기사', '산업 안전기사', '정보처리 기사'] },
+    { category: '학력', items: ['교육데이터 컨설팅 분석 석사', '데이터 분석'] },
+    { category: '관심사', items: ['클라이밍', '수영', '데이터 시각화', '머신러닝'] },
   ];
 </script>
 
@@ -10,23 +10,21 @@
   <div class="about-container">
     <div class="about-content">
       <div class="section-header">
-        <h2 class="section-title">About Me</h2>
+        <h2 class="section-title">소개</h2>
       </div>
 
       <div class="about-grid">
         <div class="about-text">
           <p>
-            I'm a passionate developer with a love for creating beautiful and functional digital experiences. 
-            With expertise in modern web technologies, I focus on building scalable applications that delight users.
+            저는 데이터 기반의 문제 해결을 좋아하는 데이터 분석가 해니입니다. 빅데이터 분석 기술을 활용하여 복잡한 데이터에서 의미 있는 인사이트를 도출하고, 이를 통해 조직의 의사결정을 지원합니다.
           </p>
           <p>
-            When I'm not coding, you can find me exploring new design trends, contributing to open source, 
-            or sharing knowledge with the developer community.
+            산업 안전과 데이터 분석 분야에서의 전문성을 바탕으로, 더 나은 일터를 만드는 데 기여하고 싶습니다. 또한 꾸준한 자기계발을 통해 최신 데이터 기술을 습득하고 있습니다.
           </p>
         </div>
 
         <div class="skills-section">
-          <h3 class="skills-title">Skills & Technologies</h3>
+          <h3 class="skills-title">자격증 & 학력 & 취미</h3>
           <div class="skills-grid">
             {#each skills as skillGroup}
               <div class="skill-category">

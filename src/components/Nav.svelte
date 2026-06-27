@@ -6,17 +6,17 @@
   };
 
   const navItems = [
-    { label: 'Home', href: '#home' },
-    { label: 'Projects', href: '#projects' },
-    { label: 'About', href: '#about' },
-    { label: 'Contact', href: '#contact' },
+    { label: '홈', href: '#home' },
+    { label: '프로젝트', href: '#projects' },
+    { label: '소개', href: '#about' },
+    { label: '연락하기', href: '#contact' },
   ];
 </script>
 
 <nav class="navbar">
   <div class="nav-container">
     <div class="logo">
-      <span class="logo-text">PORTFOLIO</span>
+      <span class="logo-text">해니</span>
     </div>
 
     <div class="nav-menu" class:active={isOpen}>

@@ -2,25 +2,25 @@
   const projects = [
     {
       id: 1,
-      title: 'Project One',
-      description: 'A modern web application built with cutting-edge technologies',
-      tags: ['Astro', 'Svelte', 'Tailwind'],
+      title: '빅데이터 분석 프로젝트',
+      description: '대규모 데이터셋을 분석하여 비즈니스 인사이트를 도출한 프로젝트',
+      tags: ['Python', '데이터 분석', 'Pandas'],
       link: '#',
       featured: true,
     },
     {
       id: 2,
-      title: 'Project Two',
-      description: 'Innovative design system and component library',
-      tags: ['Design System', 'Components', 'Web'],
+      title: '산업 안전 대시보드',
+      description: '산업 안전 데이터를 시각화하여 위험 요소를 실시간 모니터링하는 시스템',
+      tags: ['데이터 시각화', '대시보드', '안전관리'],
       link: '#',
       featured: true,
     },
     {
       id: 3,
-      title: 'Project Three',
-      description: 'Full-stack application with real-time features',
-      tags: ['Full-stack', 'Real-time', 'API'],
+      title: '머신러닝 예측 모델',
+      description: '교육 데이터를 활용한 학습 성과 예측 모델 개발',
+      tags: ['머신러닝', 'Scikit-learn', 'Python'],
       link: '#',
       featured: false,
     },
@@ -30,8 +30,8 @@
 <section id="projects" class="projects">
   <div class="projects-container">
     <div class="section-header">
-      <h2 class="section-title">Featured Projects</h2>
-      <p class="section-subtitle">Explore some of my recent work and side projects</p>
+      <h2 class="section-title">주요 프로젝트</h2>
+      <p class="section-subtitle">데이터 분석을 통해 만든 의미 있는 프로젝트들을 소개합니다</p>
     </div>
 
     <div class="projects-grid">
@@ -46,7 +46,7 @@
                 <span class="tag">{tag}</span>
               {/each}
             </div>
-            <a href={project.link} class="project-link">View Project →</a>
+            <a href={project.link} class="project-link">프로젝트 보기 →</a>
           </div>
         </div>
       {/each}

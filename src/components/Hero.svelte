@@ -2,14 +2,14 @@
   <div class="hero-content">
     <div class="hero-text">
       <h1 class="hero-title">
-        Hi, I'm <span class="gradient-text">Creative Developer</span>
+        안녕하세요, 저는 <span class="gradient-text">해니</span>입니다
       </h1>
       <p class="hero-subtitle">
-        Building beautiful and functional digital experiences with modern technologies
+        데이터 분석과 산업 안전을 전문으로 하는 데이터 분석가입니다. 빅데이터 기술로 문제를 해결하고, 의미 있는 인사이트를 제공합니다.
       </p>
       <div class="hero-buttons">
-        <a href="#projects" class="btn btn-primary">View My Work</a>
-        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+        <a href="#projects" class="btn btn-primary">프로젝트 보기</a>
+        <a href="#contact" class="btn btn-secondary">연락하기</a>
       </div>
     </div>
     <div class="hero-image">

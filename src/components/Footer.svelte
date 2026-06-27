@@ -5,7 +5,7 @@
 <footer class="footer">
   <div class="footer-container">
     <div class="footer-content">
-      <p>&copy; {currentYear} My Portfolio. All rights reserved.</p>
+      <p>&copy; {currentYear} 해니의 포트폴리오. 모든 권리 보유.</p>
     </div>
   </div>
 </footer>
